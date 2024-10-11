@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 name = "align-anything"
 description = "Align Anything"
 readme = "README.md"
-requires-python = ">= 3.11"
+requires-python = ">= 3.10"
 authors = [{ name = "PKU-Alignment Team" }]
 license = { text = "Apache License, Version 2.0" }
 keywords = [
@@ -33,7 +33,7 @@ dependencies = [
     "vllm >= 0.6.2",
     "torch >= 1.13",
     "frechet_audio_distance",
-    "transformers @ git+https://github.com/huggingface/transformers.git@main",
+    "transformers",
     "datasets",
     "tokenizers >= 0.13.3",
     "accelerate",
