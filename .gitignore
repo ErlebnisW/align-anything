@@ -1,4 +1,5 @@
 ##### Project Specification #####
+eval_results/
 output/
 outputs/
 wandb/
